@@ -21,7 +21,7 @@
   "scripts": {
     "build": "npm run code:check && rimraf ./dist && rollup -c",
     "test": "jest",
-    "coverage": "npm run test -- --coverage",
+    "coverage": "npm run test -- --coverage && codecov",
     "code:check": "prettier --check ./src ./test",
     "code:format": "prettier --write ./src ./test",
     "release": "release-it"
@@ -34,6 +34,7 @@
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
+    "codecov": "^3.8.3",
     "core-js": "3.16.0",
     "http-server": "^0.12.3",
     "jest": "^27.0.6",

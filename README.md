@@ -1,3 +1,7 @@
+[![codecov](https://img.shields.io/codecov/c/github/rmmgc/promise-retry-helper/master?style=flat-square)](https://codecov.io/gh/rmmgc/promise-retry-helper)
+[![version](https://img.shields.io/npm/v/promise-retry-helper?style=flat-square)](https://www.npmjs.com/package/promise-retry-helper)
+[![MIT](https://img.shields.io/npm/l/promise-retry-helper?style=flat-square)](https://opensource.org/licenses/MIT)
+
 # promise-retry-helper
 
 Small utility function to retry a Promise.  
