@@ -10,7 +10,7 @@
   },
   "hooks": {
     "before:init": ["npm run code:check", "npm test"],
-    "after:bump": "npm run dist",
+    "after:bump": "npm run build",
     "after:release": "echo Successfully created new release v${version} for ${repo.repository}."
   }
 }
