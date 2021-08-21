@@ -2,7 +2,7 @@
  * promise-retry-helper
  * Utility function to retry Promises
  *
- * @version v1.0.0
+ * @version v1.1.0
  * @author Ramo Mujagic <mujagic.ramo@gmail.com>
  * @license MIT
  */
