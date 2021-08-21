@@ -24,7 +24,7 @@
     "coverage": "npm run test -- --coverage",
     "code:check": "prettier --check ./src ./test",
     "code:format": "prettier --write ./src ./test",
-    "release": "npm run release-it"
+    "release": "release-it"
   },
   "author": "Ramo Mujagic <mujagic.ramo@gmail.com>",
   "license": "MIT",
