@@ -2,6 +2,12 @@
   "name": "promise-retry-helper",
   "version": "1.1.0",
   "description": "Utility function to retry Promises",
+  "author": "Ramo Mujagic <mujagic.ramo@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmmgc/promise-retry-helper.git"
+  },
   "main": "src/index.js",
   "module": "dist/promise-retry-helper.esm.js",
   "browser": "dist/promise-retry-helper.min.js",
@@ -26,8 +32,6 @@
     "code:format": "prettier --write ./src ./test",
     "release": "release-it"
   },
-  "author": "Ramo Mujagic <mujagic.ramo@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
